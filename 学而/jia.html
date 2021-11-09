@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.add {
+border: 2px solid;
+width: 27px;
+height: 27px;
+color: #ccc;
+transition: color .25s;
+position: relative;
+border-radius: 20px;
+}
+.add::before{
+content: '';
+position: absolute;
+left: 50%;
+top: 50%;
+width: 27px;
+margin-left: -14px;
+margin-top: -1px;
+border-top: 1px solid;
+}
+.add::after {
+content: '';
+position: absolute;
+left: 50%;
+top: 50%;
+height: 27px;
+margin-left: -1px;
+margin-top: -14px;
+border-left: 1px solid;
+}
+.add:hover {
+color: blue;
+}
+    </style>
+</head>
+<body>
+    <div class="add"></div>
+</body>
+</html>

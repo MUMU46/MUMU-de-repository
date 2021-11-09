@@ -1,0 +1,478 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(243, 243, 247);
+}
+.header{
+    border-top: 1px solid rgb(203, 202, 202);
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    box-shadow: 2px 1px 0 0 rgb(222, 219, 219);
+    display: flex;
+    justify-content: space-between;
+}
+.header .left{
+    width: 250px;
+    height: 50px;  
+    display: flex;
+}
+.header .left img{
+    height: 50px;
+    width: 50px;
+    display: flex;
+}
+.header .left input{
+    width: 160px;
+    height: 28px;
+    border-radius: 48px;
+    display: flex;
+    margin-top: 10px;
+    border: 0;
+    background: rgba(236, 235, 234, 0.89);
+    color: #bfbfbf;
+    padding: 0 0 0 5px;
+}
+
+.header .center{
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .right{
+    width: 370px;
+    height: 50px;
+    display: flex;
+   /*  background-color: indianred; */
+    line-height: 50px;
+    font-size: 10px;
+}
+.header .right input{
+    width: 65px;
+    height: 27px;
+    border-radius: 28px;
+    margin-top: 10px;
+    border: 0;
+    background: rgb(232, 230, 230);
+    color: rgb(84, 84, 84);
+    padding: 0 0 0 8px;
+}
+.header .right input:hover{
+    background-color: rgb(213, 210, 210);
+}
+.header .right .user{
+    width: 90px;
+    height: 35px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.header .right .user li{
+    margin: 0 10px 0 10px;
+    float: left;
+}
+.header .right .user:hover{
+    background: rgb(222, 219, 219);
+}
+
+.header .right .user img{
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-top: 5px;
+}
+.header .right .right1 img{
+    height: 50px;
+    width: 40px;
+    margin-left: 5px;
+}
+.header .right .ling{
+    width: 35px;
+    height: 35px;
+    /* position:relative; */
+    display: flex;
+    border-radius: 35px;
+    background-color: rgba(221, 215, 215, 0.769);
+    margin: 7px 0 0 3px;
+    
+}
+.ling img{
+    width: 20px;
+    height: 20px;
+    margin: 8px;
+}
+.ling .one{
+    width: 15px;
+    height: 15px;
+    /* position: absolute;
+    transform: translate(50%,50%); */
+    display: flex;
+    justify-content: flex-end;
+    background-color: red;
+    font-size: 10px;
+    line-height: 15px;
+    text-align: center;
+    color: white;
+    border-radius: 15px;
+}
+/* .header .right .right1{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+
+}
+ */
+ .banner{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+ }
+ .banner .banner1{
+     width: 400px;
+     height: 600px;
+ } 
+ .banner .banner2{
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     width: 600px;
+     height: 760px;
+     background-color: rgb(243, 243, 247);
+ }
+ .banner .banner3{
+     display: flex;
+     justify-content: flex-start;
+     flex-direction: column;
+     width: 400px;
+     height: 600px;
+ }
+ .banner1 .sort{
+     width: 300px;
+     height: 35px;
+     margin-top: 10px;
+     margin-left: 20px;
+     font-size: 12px;
+     border-radius: 5px;
+    /*  display:table-cell;
+     vertical-align:middle; */
+ }
+ .sort img{
+     width: 32px;
+     height: 32px;
+     border-radius: 32px;
+ }
+ .banner1 .sort:hover{
+     background-color: rgb(222, 219, 219);
+ }
+ .sort img{
+     height: 35px;
+     width: 35px;
+     float: left;
+ }
+ .sort li{
+     list-style: none;
+     float: left;
+     margin: 10px;
+ }
+ .banner2 .share{
+    width: 600px;
+    height: 70px;
+    display: flex;
+    background-color: white;
+    margin-top: 15px;
+    border-radius: 5px;
+    box-shadow: rgb(80, 79, 79);
+    display:table-cell;
+    vertical-align:middle;
+ }
+li{
+    list-style: none;
+}
+.share .change{
+    width: 580px;
+    height: 60px;
+    display: flex;
+    display:table-cell;
+    vertical-align:middle;
+    border-radius: 5px;
+}
+.share .change:hover{
+    background-color: rgb(208, 207, 207);
+}
+.share .change img{
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin:10px 0 0 10px ;
+}
+.share li{
+    font-size: 15px;
+    line-height: 15px;
+   margin: 10px 0 0 60px;
+}
+.share p{
+    font-size: 10px;
+    line-height: 10px;
+    color: rgb(119, 118, 118);
+    margin: 10px 0 0 60px;
+}
+.banner2 .password{
+    width: 600px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.banner2 .password .top{
+    width: 600px;
+    height: 100px;
+    display: flex;
+    justify-content: flex-start;
+}
+.banner2 .password .f img{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    margin: 20px 0 0 10px;
+}
+.banner2 .password .com img{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    margin: 20px 0 0 200px;
+}
+.banner2 .password .bottom{
+    width: 600px;
+    height: 100px;
+    display: flex;
+    display:table-cell;
+    vertical-align:middle;
+}
+.banner2 .password .bottom li{
+    font-size: 20px;
+    margin-left: 10px;
+}
+.banner2 .password .bottom .b{
+    font-size: 13px;
+    color: rgb(119, 118, 118);
+    margin-left: 10px;
+}
+.password .bottom button{
+    width: 250px;
+    height: 30px;
+    margin-left: 25px;
+    margin-top: 10px;
+    border: 0;
+    border-radius: 5px;
+    background: rgb(208, 207, 207);
+}
+.password .bottom button:hover{
+    background: rgb(199, 231, 245);
+    color: rgb(7, 117, 157);
+}
+.banner2 .text{
+    width: 600px;
+    height: 120px;
+    display:table-cell;
+    vertical-align:middle;
+    margin-top : 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+.banner2 .text .one{
+    width: 600px;
+    height: 50px;
+    display: flex;
+    border-radius: 5px;
+}
+.text .one img{
+    width:40px;
+    height: 40px;
+    margin-top: 5px;
+}
+.text .one input{
+    width: 550px;
+    height: 30px;
+    border: 0;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background: rgb(243, 243, 247);
+    color:rgb(119, 118, 118);
+    padding-left: 5px;
+}
+.banner2 .two{
+    width: 580px;
+    height: 70px;
+    margin-left: 10px;
+    border-top: 1px solid rgb(216, 214, 214);
+    display: flex;
+    justify-content: space-between;
+}
+.banner2 .two .c{
+    width: 150px;
+    height: 50px;
+    margin-left: 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.banner2 .two .c:hover{
+    background: rgb(208, 207, 207);
+}
+
+.banner2 .two img{
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-top:10px;
+}
+.banner2 .two p{
+    font-size: 13px;
+    margin: 15px 0 0 5px;
+    color: rgb(119, 118, 118);
+}
+.banner2 .chat{
+    width: 600px;
+    height: 350px;
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.banner2 .chat .imgs{
+    width: 600px;
+    height: 200px;
+    background: white;
+    display: flex;
+    justify-content: flex-start;
+}
+.chat .m img{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    margin: 10px 0 0 5px;
+}
+.chat .n img{
+    width: 300px;
+    height: 160px;
+    display: flex;
+    margin: 10px 0 0 90px;
+}
+.chat .choice{
+    width: 600px;
+    height: 250px;
+    text-align: center;
+}
+.chat .choice h3{
+    font-size: 20px;
+}
+.chat .choice p{
+    font-size: 13px;
+    color: rgb(79, 78, 78);
+}
+.chat .choice button{
+    width: 260px;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 20px;
+    border: 0;
+    border-radius: 5px;
+    background: rgb(208, 207, 207);
+}
+.chat .choice button:hover{
+    background: rgb(199, 231, 245);
+    color: rgb(7, 117, 157);
+}
+.banner3 li{
+    font-size: 15px;
+    color: rgb(89, 87, 87);
+    margin:20px 0 0 60px;
+} 
+.banner3 .new li{
+    font-size: 15px;
+    color: rgb(89, 87, 87);
+    margin: 15px 0 0 40px;
+    display:flex;
+    font-size: 13px;
+}
+.banner3 .new{
+    width: 340px;
+    height: 40px;
+    display:flex;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+.banner3 .new:hover{
+    background-color: rgb(208, 207, 207);
+}
+.add{
+   background: rgb(208, 207, 207);
+    width: 27px;
+    height: 27px;
+    color:rgb(55, 57, 58);
+    transition: color .25s;
+    position: relative;
+    border-radius: 20px;
+    margin: 10px 0 0 40px;
+    }
+.add::before{
+    
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 17px;
+    margin-left: -8px;
+    margin-top: -2px;
+    border-top: 2px solid;
+    
+    }
+    .add::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 17px;
+    margin-left: -1px;
+    margin-top: -10px;
+    border-left: 2px solid;
+    } 
+/* .password .add{
+    border: 0;
+    width: 27px;
+    height: 27px;
+    color:rgb(68, 196, 147);
+    transition: color .25s;
+    position: relative;
+    border-radius: 20px;
+    margin: 0 0 0 250px;
+    }
+.add::before{
+    
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 25px;
+    margin-left: -13px;
+    margin-top: -1px;
+    border-top: 1px solid;
+    
+    }
+    .add::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 25px;
+    margin-left: -1px;
+    margin-top: -13px;
+    border-left: 1px solid;
+    } */

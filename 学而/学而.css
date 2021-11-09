@@ -1,0 +1,326 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/**{margin:0; padding:0;}代表了网页中所有元素，包括body ,ul, li列表标签 ,p,H标题标签,dd,dt 等……都有默认的margin 或padding值的，加上这句就可以删除浏览器这些默认值，方面后面的设置。
+*/
+
+
+a :hover {
+    color: rgb(236, 75, 75);
+}
+.w{
+    width: 1000px;
+    margin: auto;
+}
+.header{
+    display: flex;
+    align-items: center;
+    /*width: 1000px;*/
+    height: 78px;
+    background-color: white;
+}
+body{
+    background-color: #f5f5f5;
+}
+.logo{
+    width: 106px;
+    height:78px;
+    display: table-cell;
+    vertical-align: middle;
+    line-height: 78px;
+    font-size: 25px;
+    color: rgb(68, 196, 147);
+}
+.pic{
+    width: 40px;
+    height: 69px;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 9x 0 0 0;
+}
+.nav{
+    display: flex;
+    height: 78px;
+    margin-left: 20px;
+}
+.text li a{
+    text-decoration: none;
+    color:rgb(107, 110, 110)
+}
+.nav ul li {
+    float: left;
+    margin: 0 35px;
+    list-style: none;
+}
+.nav ul li a {
+    display: block;
+    height: 78px;
+    line-height: 78px;
+    font-size: 19px;
+    color: rgb(107, 110, 110);
+}
+.nav ul li a:hover {
+    border-top: 4px solid rgb(236, 75, 75);
+    color: rgb(236, 75, 75);
+    height: 74px;
+    line-height: 70px;
+}
+.search{
+   /* position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-30%, -50%);*/
+    display: flex;
+    padding: 0;
+    width: 328px;
+    height:32px;
+    background-color: rgb(236, 75, 75);
+    margin-left: 60px;
+}
+.search input {
+    float: left;
+    width: 248px;
+    height: 28px;
+    border: 2px solid rgb(236, 75, 75);
+    border-right: 0;
+    
+}
+.search button{
+    float: left;
+    width: 78px;
+    height: 32px;
+    border: 0;
+    background: url(btn.png);
+}
+.user{
+    display: flex;
+    width: 35px;
+    height: 35px;
+    margin-left: 60px;
+}
+.back{
+    display: flex;
+    margin-left: 47px;
+}
+.back button{ 
+    width: 90px;
+    height: 35px;
+    border: 0;
+    border-radius: 0px;
+    font-size: 13px;
+    text-align: center;
+    color: white;
+    letter-spacing: 5px;
+    background-color: rgb(68, 196, 147);
+}
+.banner{
+    height: 347px;
+}
+.banner2{
+    background-color: white;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.banner2 .one{
+    width: 220px;
+    height: 400px;
+}
+.top{
+    width: 220px;
+    height: 175px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.circle{
+   /* display: flex;*/
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 2px solid rgb(68, 196, 147);
+    border-radius: 100%;
+    margin-top: 37px;
+    margin-bottom: 37px;
+    font-size: 37px;
+    line-height: 100px;
+    text-align: center;
+    color: rgb(68, 196, 147);
+}
+.circle:hover{
+    background-color: rgb(68, 196, 147);
+    color: white;
+}
+.text{
+    width: 170px;
+    height: 124px;
+    padding: 0 0 0 50px;
+    border-right: 1px solid gainsboro;
+  
+}
+.text li{
+    color: rgb(107, 110, 110);
+    font-size: 15px;
+}
+.text p{
+    font-size: 12px;
+    color: rgb(107, 110, 110);
+}
+.text a:hover{
+    color: rgb(236, 75, 75);
+}
+/* .text li:hover{
+    color: rgb(236, 75, 75);
+}
+.text p:hover{
+    color: rgb(236, 75, 75);
+} */
+
+.bottom{
+    width: 220px;
+    height: 100px;
+}
+.bottom .add {
+    border: 2px solid;
+    width: 27px;
+    height: 27px;
+    color:rgb(68, 196, 147);
+    transition: color .25s;
+    position: relative;
+    border-radius: 20px;
+    margin: 27px auto;
+    }
+.add::before{
+    
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 25px;
+    margin-left: -13px;
+    margin-top: -1px;
+    border-top: 1px solid;
+    
+    }
+    .add::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 25px;
+    margin-left: -1px;
+    margin-top: -13px;
+    border-left: 1px solid;
+    }
+    .add:hover {
+    color: rgb(104, 230, 182);
+    }
+    .banner3{
+        height: 358px;
+        margin-top: 10px;
+        background-color: white;
+    }
+    .title{
+        font-size: 20px;
+        width: 1000px;
+        height: 25px;
+        text-align: center;
+        color: rgb(107, 110, 110);
+        padding: 40px 0 0 0;
+    }
+    .top1{
+        font-size:12px;
+        height: 18px;
+        width: 1000px;
+        text-align: center;
+        color: rgb(68, 196, 147);
+    }
+    .kecheng{
+        width: 706px;
+        height: 109px;
+        margin-top: 18px;
+        margin-left: 149px;
+    }
+    .kecheng .box1{
+        width: 140px;
+        height: 105px;
+        display:table-cell;
+        vertical-align:middle;
+        border: 2px solid rgb(68, 196, 147);
+        text-align: center;
+        font-size: 15px;
+        color: rgb(107, 110, 110);
+    }
+    .kecheng .box2{
+        width: 141px;
+        height: 98px;
+        text-align: center;
+        font-size: 45px;
+        color: rgb(242, 85, 85);
+        vertical-align:middle;
+        display:table-cell;
+    }
+    .kecheng .box1:hover{
+        background-color: rgb(68, 196, 147);
+        color: white;
+    }
+    .banner4{
+        height: 415px;
+        margin-top: 10px;
+        background-color: white;
+        margin-bottom: 98px;
+    }
+    .banner4 .bigbox{
+        width: 1000px;
+        height: 145px;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        margin-top: 23px;
+        column-gap: 13px;
+        /* background-color: thistle; */
+    }
+    .banner4 .ibox{
+        width: 175px;
+        height: 144px;
+        background-color: turquoise;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .banner4 .recommend{
+        position: relative;
+        width: 175px;
+        height: 37px;
+        background-color: rgb(238, 72, 72);
+        text-align: center;
+        padding: 35px 0;
+        font-size: 13px;
+        color: white;
+        margin-top: 37px;
+    }
+    .banner4 .recommend p{
+        font-size: 16px;
+    }
+    .banner4 .recommend:hover {
+        background-color: rgb(244, 113, 113);
+    }
+    .banner4 .recommend img {
+        position: absolute;
+        opacity: 0;
+        top: -36px;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .banner4 .recommend:hover img {
+        opacity: 100;
+    }
+    /* .rabbit{
+        width: 175px;
+        height: 37px;
+        background-color: aqua;
+        padding: ;
+    } */
