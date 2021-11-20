@@ -92,7 +92,7 @@ body{
 .header .right .ling{
     width: 35px;
     height: 35px;
-    /* position:relative; */
+    position:relative;
     display: flex;
     border-radius: 35px;
     background-color: rgba(221, 215, 215, 0.769);
@@ -107,14 +107,15 @@ body{
 .ling .one{
     width: 15px;
     height: 15px;
-    /* position: absolute;
-    transform: translate(50%,50%); */
+    position: absolute;
+    top: 0;
+    right: 0;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     background-color: red;
     font-size: 10px;
     line-height: 15px;
-    text-align: center;
+   /*  text-align: center; */
     color: white;
     border-radius: 15px;
 }
