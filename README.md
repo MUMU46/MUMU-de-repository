@@ -1,3 +1,3 @@
 # MUMU-de-repository
-lalala
-web freshmen
+Muxi learning record
+start at 2021 
